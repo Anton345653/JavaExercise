@@ -5,7 +5,8 @@ public class Main {
 
         FunctionalInterface f= i -> {
             if(i%13==0)return true;
-            return false;
+            else return false;
+            
         };
         FunctionInterface2 f2= (str, str2) -> {
             if(str.length()<str2.length())
